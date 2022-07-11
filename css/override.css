@@ -1,5 +1,6 @@
 .post-list-heading {
    visibility: hidden !important;
+   display: none !important;
 }
 
 hr {
