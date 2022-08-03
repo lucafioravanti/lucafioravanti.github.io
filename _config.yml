@@ -1,0 +1,37 @@
+title: ""
+author: "Luca Fioravanti"
+description: "" 
+# The description will show up in places like twitter, linkedin, etc, if you share your sites url as a post.
+
+email: "94.fioravanti@gmail.com"
+github_username: "lucafioravanti"
+linkedin_username: "luca-fioravanti"
+#twitter_username: "twitteruser"
+#facebook_username: username
+#flickr_username: username
+#instagram_username: username
+#pinterest_username: username
+#youtube_username: username
+
+theme: "minima"
+
+rss: rss
+
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+    
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+titles_from_headings:
+  strip_title: true
+  collections: true
+
+defaults:
+  - scope:
+      path: ""
+      type: post
+    values:
+      tags: Other
